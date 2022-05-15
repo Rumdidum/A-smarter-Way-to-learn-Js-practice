@@ -72,15 +72,21 @@ function swapPic(id, newPic) {
 }
  */
 
+// Level 55
+/* let lorem = document.querySelector("#lorem");
+lorem.style.fontSize = "2em";
+ */
+
 // Level 56
 // let myH2 = document.getElementsByTagName("p");
+/*
 let myButtons = document.querySelectorAll("button"); // this is like [p0, p1, p2, p3]
 
 for (let i = 0; i < myButtons.length; i++) {
     console.log(myButtons[i].textContent);
 }
 
-/*
+
 for (let i = 0; i < myH2.length; i++) {
   myH2[i].style.color = "red";
 }
@@ -88,6 +94,7 @@ myH2[2].style.display = "flex";
 myH2[2].style.justifyContent = "center";
 myH2[3].textContent += " new:"; 
 */
+
 /* for (let i = 0; i < myButtons.length; i++) {
   myButtons[i].onclick = () => alert(`Holy moli! ${myButtons[i].innerText}`);
   myButtons[i].classList.add("anotherclass");
@@ -99,7 +106,7 @@ myH2[3].textContent += " new:";
 
 
 //SOME TESTS WITH EVENTListeners
-myButtons.forEach(myFunction)
+/* myButtons.forEach(myFunction)
 
 function myFunction(item, index, arr) {
     item.addEventListener('click', greet);
@@ -118,4 +125,12 @@ function myFunction(item, index, arr) {
     }
 
 }
+ */
+// Level 57
+let myContainer = document.querySelector("#container");
+let myButtons = myContainer.querySelectorAll("button");
 
+for (let i = 0; i < myButtons.length; i++) {
+    myButtons[i].style.fontSize = "2em";
+    myButtons[i].style.color = "SlateBlue"
+}
