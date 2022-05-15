@@ -127,10 +127,24 @@ function myFunction(item, index, arr) {
 }
  */
 // Level 57
+/* 
 let myContainer = document.querySelector("#container");
 let myButtons = myContainer.querySelectorAll("button");
-
+console.log(myButtons)
 for (let i = 0; i < myButtons.length; i++) {
     myButtons[i].style.fontSize = "2em";
     myButtons[i].style.color = "SlateBlue"
 }
+ */
+// Level 60
+let myDivs = document.querySelector("#h2");
+
+let contents = myDivs.childNodes[0];
+let contentName = contents.nodeValue;
+
+for (let i = 0; i < myDivs.childNodes.length; i++) {
+    console.log(myDivs.childNodes[i].nodeValue)
+}
+// Level 63 Getting targets name
+console.log(myDivs.childNodes[0].nodeValue)
+console.log(myDivs.childNodes.length)
