@@ -137,6 +137,7 @@ for (let i = 0; i < myButtons.length; i++) {
 }
  */
 // Level 60
+/* 
 let myDivs = document.querySelector("#h2");
 
 let contents = myDivs.childNodes[0];
@@ -148,3 +149,16 @@ for (let i = 0; i < myDivs.childNodes.length; i++) {
 // Level 63 Getting targets name
 console.log(myDivs.childNodes[0].nodeValue)
 console.log(myDivs.childNodes.length)
+ */
+
+// Level 65
+
+let target = document.querySelector("#one");
+let hasClass = target.hasAttribute("class");
+let getClass = target.getAttribute("class");
+// Setting Class
+let setClass = target.setAttribute("class", "SomeSpecial");
+// Get the new Class
+let newTarget = target.getAttribute("class");
+
+target.textContent = newTarget;
