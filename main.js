@@ -152,7 +152,7 @@ console.log(myDivs.childNodes.length)
  */
 
 // Level 65
-
+/* 
 let target = document.querySelector("#one");
 let hasClass = target.hasAttribute("class");
 let getClass = target.getAttribute("class");
@@ -161,4 +161,13 @@ let setClass = target.setAttribute("class", "SomeSpecial");
 // Get the new Class
 let newTarget = target.getAttribute("class");
 
-target.textContent = newTarget;
+target.textContent = newTarget; 
+
+ */
+// Level 66
+
+let target = document.querySelector("#one");
+let list = document.querySelector("#h2").attributes;
+
+target.textContent = list[0].nodeValue;
+console.log(list);
